@@ -10,6 +10,28 @@ import DataBindingRadio from '../views/DataBindingRadio.vue'
 import DataBindingAttribute from '../views/DataBindingAttribute.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
 import DataBindingClassView from '../views/DataBindingClassView.vue'
+import DataBindingClassView2 from '../views/DataBindingClassView2.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingList from '../views/DataBindingList.vue'
+import RenderingVif from '../views/RenderingVif.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import ComputedView from '../views/ComputedView.vue'
+import WatchView from '../views/WatchView.vue'
+import NestedComponent from '../views/NestedComponent.vue'
+import ParentComponent from '../views/ParentComponent.vue'
+import ParentComponent2 from '../views/ParentComponent2.vue'
+import ParentComponent3 from '../views/ParentComponent3.vue'
+import ParentComponent4 from '../views/ParentComponent4.vue'
+import ParentComponent5 from '../views/ParentComponent5.vue'
+import ProvidelnjectView from '../views/ProvidelnjectView.vue'
+import CompositionAPI2 from '../views/CompositionAPI2.vue'
+import CompositionAPI3 from '../views/CompositionAPI3.vue'
+import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
+import MixinsView from '../views/MixinsView.vue'
+import Component from '../views/Component.vue'
+import PluginsView from '../views/PluginsView.vue'
+import StoreAccess from '../views/StoreAccess.vue'
 
 const routes = [
   {
@@ -72,10 +94,122 @@ const routes = [
   },
   {
     path: '/databindingClassView',
-    name: 'DataBinding11',
+    name: 'DataBindingClassView',
     component: DataBindingClassView
+  },
+  {
+    path: '/databindingClassView2',
+    name: 'DataBindingClassView2',
+    component: DataBindingClassView2
+  },
+  {
+    path: '/databindingStyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/databindingList',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingVif',
+    name: 'RenderingVif',
+    component: RenderingVif
+  },
+  {
+    path: '/eventClick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventChange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/computedView',
+    name: 'ComputedView',
+    component: ComputedView
+  },
+  {
+    path: '/watchView',
+    name: 'WatchView',
+    component: WatchView
+  },
+  {
+    path: '/nestedComponent',
+    name: 'NestedComponent',
+    component: NestedComponent
+  },
+  {
+    path: '/parentComponent',
+    name: 'ParentComponent',
+    component: ParentComponent
+  },
+  {
+    path: '/parentComponent2',
+    name: 'ParentComponent2',
+    component: ParentComponent2
+  },
+  {
+    path: '/parentComponent3',
+    name: 'ParentComponent3',
+    component: ParentComponent3
+  },
+  {
+    path: '/parentComponent4',
+    name: 'ParentComponent4',
+    component: ParentComponent4
+  },
+  {
+    path: '/parentComponent5',
+    name: 'ParentComponent5',
+    component: ParentComponent5
+  },
+  {
+    path: '/providelnjectView',
+    name: 'ProvidelnjectView',
+    component: ProvidelnjectView
+  },
+  {
+    path: '/compositionAPI2',
+    name: 'CompositionAPI2',
+    component: CompositionAPI2
+  },
+  {
+    path: '/compositionAPI3',
+    name: 'CompositionAPI3',
+    component: CompositionAPI3
+  },
+  {
+    path: '/compositionAPIProvide',
+    name: 'CompositionAPIProvide',
+    component: CompositionAPIProvide
+  },
+  {
+    path: '/mixinsView',
+    name: 'MixinsView',
+    component: MixinsView
+  },
+  {
+    path: '/component',
+    name: 'Component',
+    component: Component
+  },
+  {
+    path: '/pluginsView',
+    name: 'PluginsView',
+    component: PluginsView
+  },
+  {
+    path: '/storeAccess',
+    name: 'StoreAccess',
+    component: StoreAccess
   }
 
+
+  
 ]
 
 const router = createRouter({
