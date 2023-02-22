@@ -32,6 +32,9 @@ import MixinsView from '../views/MixinsView.vue'
 import Component from '../views/Component.vue'
 import PluginsView from '../views/PluginsView.vue'
 import StoreAccess from '../views/StoreAccess.vue'
+import KakaoLogin from '../views/KakaoLogin.vue'
+import NaverLogin from '../views/NaverLogin.vue'
+
 
 const routes = [
   {
@@ -206,8 +209,21 @@ const routes = [
     path: '/storeAccess',
     name: 'StoreAccess',
     component: StoreAccess
+  },
+  {
+    path: '/kakaologin'
+  },
+  {
+    path: '/kakaoLogin',
+    name: 'KakaoLogin',
+    component: KakaoLogin
+  },
+  {
+    path: '/naverLogin',
+    name: 'NaverLogin',
+    component: NaverLogin
   }
-
+ 
 
   
 ]
@@ -218,3 +234,5 @@ const router = createRouter({
 })
 
 export default router
+
+

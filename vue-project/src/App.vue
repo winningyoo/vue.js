@@ -37,6 +37,8 @@
     <router-link to="/Component">Component</router-link>
     <router-link to="/pluginsView">pluginsView</router-link>
     <router-link to="/storeAccess">StoreAccess</router-link>
+    <router-link to="/kakaoLogin">KakaoLogin</router-link>
+    <router-link to="/naverLogin">NaverLogin</router-link>
 
   </nav>
   <router-view/>
@@ -64,3 +66,5 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+

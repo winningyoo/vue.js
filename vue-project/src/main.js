@@ -32,3 +32,4 @@ app.mount('#app')
  })
 
 
+window.Kakao.init("7dfbf9099227778bbec7f62cb97f07aa") //발급받은 앱 키 
