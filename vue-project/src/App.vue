@@ -39,6 +39,7 @@
     <router-link to="/storeAccess">StoreAccess</router-link>
     <router-link to="/kakaoLogin">KakaoLogin</router-link>
     <router-link to="/naverLogin">NaverLogin</router-link>
+    <router-link to="/googleLogin">GoogleLogin</router-link>
 
   </nav>
   <router-view/>
